@@ -17,6 +17,6 @@ public class Abhas_Shakya
         System.out.println(v1.age);
         System.out.println(age);
         System.out.println(Abhas_Shakya.qty);
-        
+        System.out.println("Third week of programming.");
     }
 }
