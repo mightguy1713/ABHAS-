@@ -25,5 +25,6 @@ public class DataTypeInspector
         System.out.println("double value: " + u);
         System.out.println("char value: " + i);
         System.out.println("boolean value: " +o);
+        System.out.println("My name is abhas:");
     }
 }

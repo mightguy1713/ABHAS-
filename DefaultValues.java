@@ -29,5 +29,6 @@ public class DefaultValues
         System.out.println("double: " + obj.d);
         System.out.println("char: '" + obj.c + "A"); 
         System.out.println("boolean: " + obj.bool);
+        System.out.println("My name is abhas:");
     }
 }

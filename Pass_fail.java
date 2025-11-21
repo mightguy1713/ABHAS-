@@ -12,6 +12,7 @@ public class Pass_fail
         System.out.println("Marks is : " +marks);
         String isValid = (marks >= 40) ? " pass is the examination " : "fail in the examination" ;
         System.out.println(isValid);
+        System.out.println("My name is abhas:");
     }
     
 }
