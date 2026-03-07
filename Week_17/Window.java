@@ -6,24 +6,22 @@ import javax.swing.JLabel;
 public class Window extends JFrame
 {
     public Window(){
-        setTitle("CS4001N1 Programming");
+        setTitle("Login Window");
         
         JPanel panel = new JPanel();
-        panel.setBorder(BorderFactory.createTitledBorder("Login details"));
         panel.setBackground(Color.lightGray);
         
         JLabel label = new JLabel("Username: ");
-        label.setBounds(30, 50, 100, 30);
+        label.setBounds(70, 50, 100, 30);
         
         JTextField txtField = new JTextField();
-        txtField.setBounds(100, 50, 100, 30);
+        txtField.setBounds(150, 50, 100, 30);
         
         JButton btn = new JButton("Submit");
-        btn.setBounds(100 , 100 , 75, 30);
+        btn.setBounds(150 , 100 , 75, 30);
         btn.setForeground(Color.DARK_GRAY);
-        btn.setBackground(Color.white);
-        btn.setBackground(new Color(255, 210 ,123));
-        
+        btn.setBackground(Color.GREEN);
+    
         panel.setLayout(null);
         panel.add(label);
         panel.add(txtField);
